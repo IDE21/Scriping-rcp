@@ -76,8 +76,8 @@ import requests
 from bs4 import BeautifulSoup
 # ... other imports
 
-Last file I uploaded is a csv file (The result of my project).
-
 def get_product_details(product_url):
     response = requests.get(product_url, headers=headers)
     # ... code to extract product details
+
+Last file I uploaded is a csv file (The result of the project).
